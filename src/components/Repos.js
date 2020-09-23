@@ -5,6 +5,7 @@ import { ExampleChart, Pie3D, Column3D, Bar3D, Doughnut2D } from './Charts';
 const Repos = () => {
   const { repos } = React.useContext(GithubContext);
   return (
+    //Using the wrapper and the examplechart
     <section className="section">
       <Wrapper className="section-center">
         <ExampleChart />;
