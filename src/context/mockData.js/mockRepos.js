@@ -114,7 +114,7 @@ export default [
     svn_url: 'https://github.com/jorgediazok/angular-api-weather',
     homepage: null,
     size: 148,
-    stargazers_count: 0,
+    stargazers_count: 10,
     watchers_count: 0,
     language: 'TypeScript',
     has_issues: true,
