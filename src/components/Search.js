@@ -4,6 +4,7 @@ import { MdSearch } from 'react-icons/md';
 import { GithubContext } from '../context/context';
 const Search = () => {
   const [user, setUser] = useState('');
+  // @ts-ignore
   const { requests, error, searchGithubUser, isLoading } = React.useContext(
     GithubContext
   );
