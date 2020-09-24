@@ -8,7 +8,6 @@ const Search = () => {
   const { requests, error, searchGithubUser, isLoading } = React.useContext(
     GithubContext
   );
-  console.log(requests);
   //get things from global context
   const handleSubmit = (e) => {
     e.preventDefault();
